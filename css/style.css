@@ -1,0 +1,229 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+/* Cores
+Links do Menu no Topo, texto acima do valor, texto em baixo das fotos: #505050
+Botão, R$ valor, fundo da imagem e etc: #2E68FF
+Títulos maiores: #040315
+Fundo do rodapé: #1A1A1A
+*/
+
+/* Tamanho das fontes 
+Boat Stone Bluetooth Speaker - 54px
+Desfrute de uma conectividade perfeita com a mais recente tecnologia - 64px
+Valor, preço - 64px
+Bluetooth 5.3 - 20px
+Textos e paragrafos - 18px
+Itens do menu - 16px
+Leve sua música para qualquer lugar com este alto-lante compacto e leve - 54px
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+.menu-div-1 {
+	margin-left: 10%;
+	width: 100%;
+	position: relative;
+	left: 1%;
+}
+
+.menu-div-2 {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+}
+
+.nav-menu ul {
+	display: flex;
+}
+
+.nav-menu ul li {
+	display: flex;
+	padding: 20px;
+}
+
+.nav-menu ul li a {
+	text-decoration: none;
+	color: gray;
+	font-family: "Inter", sans-serif;
+
+}
+
+.section-01 {
+	margin-left: 11%;
+	margin-top: 84px;
+}
+
+.section-tudo-01 {
+	display: flex;
+	align-items: center;
+}
+
+.section-img-01 {
+	width: 400px;
+}
+
+.section-text-01 {
+	margin-left: 20%;
+
+}
+
+.image-01 {
+	width: 100%;
+}
+
+.name-01 {
+	position: relative;
+	font-size: 40px;
+	left: 0%;
+	top: -130px;
+}
+
+.name-02 {
+	position: relative;
+	left: 0%;
+	top: -100px;
+	color: #7F7F7F;
+
+}
+
+.preco {
+	color: #2E68FF;
+	font-size: 50px;
+}
+
+.Comprar-agora {
+	background-color: #2E68FF;
+	color: white;
+	border: none;
+	width: 45%;
+	height: 40px;
+	border-radius: 3px;
+	position: relative;
+	top: 40px;
+}
+
+.espaco {
+	padding: 50px;
+}
+
+.Bluetooth {
+	color: #2E68FF;
+}
+
+.div-texto-03 {
+	text-align: center;
+}
+
+.div-texto-04 {
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 20px;
+}
+
+.tres-imagem-tudo {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	top: 50px;
+}
+
+.tres-texto-tudo {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	left: 10%;
+	position: relative;
+	top: 50px;
+}
+
+.descricao-01 {
+	margin-left: 5%;
+	color: #7F7F7F;
+
+}
+
+.descricao-02 {
+	margin-left: 22%;
+	color: #7F7F7F;
+
+}
+
+.descricao-03 {
+	margin-left: 24%;
+	color: #7F7F7F;
+
+}
+
+.espaco-03-tudo{
+	background-color: #2E68FF;
+	width: 80%;
+	margin-left: 10%;
+	height: 80vh;
+}
+
+.espaco-03{
+	position: relative;
+	display: flex;
+	width: 80%;
+	margin-left: 10%;
+	top: 10%;
+}
+
+.separacao-02{
+	position: relative;
+	margin-left: 7%;
+}
+
+.div-texto-05{
+	color: white;
+	font-size: 45px;
+	position: relative;
+	top: 15%;
+}
+
+.div-texto-06{
+	color: white;
+	position: relative;
+	top: 35%;
+}
+
+footer{
+	background-color: #252525;
+	padding: 3%;
+}
+
+.menu-div-22{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	align-items: center;
+	margin-left: 10%;
+}
+
+.nav-menu-1 ul {
+	display: flex;
+}
+
+.nav-menu-1 ul li {
+	display: flex;
+	padding: 20px;
+}
+
+.nav-menu-1 ul li a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: "Inter", sans-serif;
+
+}
